@@ -29,7 +29,7 @@ const Navbar = () => {
                                 <li>
                                     <Link
                                         className="mx-2 hover:text-gray-500/75"
-                                        href="/"
+                                        to="/about"
                                     >
                                         About
                                     </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <li>
                                     <Link
                                         className="mx-2 hover:text-gray-500/75"
-                                        href="/"
+                                        to="/courses"
                                     >
                                         Course
                                     </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                                 <li>
                                     <Link
                                         className="mx-2 hover:text-gray-500/75"
-                                        href="/"
+                                        to="/contact"
                                     >
                                         Contact
                                     </Link>
